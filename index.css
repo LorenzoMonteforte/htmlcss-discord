@@ -42,7 +42,7 @@ ul{
     background-color: black;
 }
 
-#secondBlock h1, #secondBlock p, #containerSection4 > h2, #containerSection4 > p, h3{
+#secondBlock h1, #secondBlock p, #containerSection4 > h2, #containerSection4 > p{
     text-align: center;
 }
 
@@ -60,6 +60,26 @@ h2{
 
 .backBlue{
     background-color: rgba(141,160,224,255);
+}
+
+.colBlue{
+    color: rgba(116,140,223,255);
+}
+
+.mt10{
+    margin-top: 10px;
+}
+
+.mr10{
+    margin-right: 10px;
+}
+
+.fs06{
+    font-size: 0.6em;
+}
+
+.mt5{
+    margin-top: 5px;
 }
 /* Header */
 header{
@@ -197,7 +217,7 @@ header{
     justify-content: center;
 }
 
-h3{
+#h3container > h3{
     display: inline-block;
     background-image: url("img/discord-assets/stars.svg");
     padding: 30px;
@@ -205,7 +225,7 @@ h3{
     background-size: contain;
 }
 
-#h3Container{
+#h3container{
     display: flex;
     justify-content: center;
 }
@@ -239,9 +259,8 @@ footer{
 }
 
 #section1{
-    height: 300px;
     width: 30%;
-    background-color: rgba(240,128,128,255);
+    padding: 0 50px;
 }
 
 #section2{
@@ -250,14 +269,15 @@ footer{
 }
 
 .column{
-    height: 300px;
     width: 25%;
-    background-color: rgba(32,160,154,255);
     border: 1px solid black;
+}
+
+#section1 img{
+    width: 20px;
 }
 /* Second Block Footer */
 #secondBlockFooter{
-    border-top: 3px solid rgba(210,210,210,255);
     padding-top: 10px;
     display: flex;
     justify-content: center;
@@ -265,14 +285,23 @@ footer{
 }
 
 #secondBlockFooter > div{
-    background-color: rgba(124,236,206,255);
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
+    border-top: 1px solid rgba(246,246,246,255);
 }
 
 .btn{
-    background-color: rgba(210,210,210,255);
-    display: inline-block;
-    padding: 5px;
+    width: 25%;
+    padding: 5px 0;
+}
+
+.btn > img{
+    width: 40%;
+}
+
+#registrati{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
